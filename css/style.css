@@ -1,0 +1,230 @@
+:root
+{
+    --background-col:#1E202B !important;
+}
+body
+{
+    background-color: var(--background-col);
+}
+.bg-section
+{
+    background-color: var(--background-col) !important;
+}
+
+a
+{
+    text-decoration: none;
+    color: inherit;
+}
+
+.navbar-nav li a
+{
+    color: white !important;
+    font-size: 14px !important;
+    padding: 5px 25px !important;
+    transition: all 0.4s ;
+    border-radius: 30px;
+    border: 2px solid transparent !important;
+    -webkit-transition: all 0.3s ;
+    -moz-transition: all 0.4s ;
+    -ms-transition: all 0.4s ;
+    -o-transition: all 0.4s ;
+}
+.logo-type
+{
+    display: inline-block ;
+    vertical-align: middle;
+}
+nav .nav-link{
+    position: relative;
+    padding: 0 !important;
+}
+nav .nav-link::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    border: 2px solid transparent;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    border-radius: 30px;
+    transition: width .7s;
+    -webkit-transition: width .7s;
+    -moz-transition: width .7s;
+    -ms-transition: width .7s;
+    -o-transition: width .7s;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+nav .nav-link.active::after{
+    border: 2px solid #0E9AD8 !important;
+}
+.navbar-nav li a:hover
+{
+    border: 2px solid #0E9AD8 !important;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+.serch-area
+{
+    top: 60px !important;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+form #searchName
+{
+    padding: 20px 50px 20px 20px !important;
+    background: #1e202b;
+    border: none;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    color: white !important;
+}
+form #submit
+{
+    top: 5px;
+    right: 5px;
+    bottom: 5px;
+    padding: 0 40px !important;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+input:focus
+{
+    outline: none;
+}
+.container .today,.Tomorrow
+{
+    width: 33.33%;
+    text-align: left;
+    background-color: #323544;
+}
+.w-80
+{
+    width: 90% !important;
+}
+.part-color
+{
+    background-color: #262936 !important;
+}
+#showData
+{
+    transform: translateY(-100px);
+    -webkit-transform: translateY(-100px);
+    -moz-transform: translateY(-100px);
+    -ms-transform: translateY(-100px);
+    -o-transform: translateY(-100px);
+    position: relative;
+}
+#temp
+{
+    font-size: 90px !important;
+}
+.custom
+{
+    color: #009ad8;
+    margin: 20px 0;
+}
+.text-color
+{
+    color: #bfc1c8 !important;
+}
+.today-header
+{
+    background-color: #2D303D;
+    padding: 10px 0;
+    color: #bfc1c8 !important;
+}
+footer
+{
+    background-color: #262936 !important;
+}
+form #submail
+{
+    padding: 20px 50px 20px 20px !important;
+    background: #1e202b;
+    border: none;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    color: white !important;
+}
+form #sub
+{
+    top: 5px;
+    right: 5px;
+    bottom: 5px;
+    padding: 0 40px !important;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+.fs-6
+{
+    font-size: 16px !important;
+}
+
+/* media query */
+@media (max-width:975px) {
+    .navbar-toggler
+    {
+        position: absolute !important;
+
+        right: 20px;
+        top: 50px !important;
+        color:white !important;
+        background-color: #fff !important;
+    }
+    .navbar-collapse ul
+    {
+        margin-top: 20px !important;
+        margin: auto;
+    }
+    .hero
+    {
+        overflow: hidden;
+    }
+ /* .container
+ {
+    margin: 0 !important;
+    padding: 0 !important;
+ } */
+    .navbar
+    {
+        position: relative;
+    }
+    .navbar-nav
+    {
+       align-items: center !important;
+
+    }
+nav .container
+{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+}
+@media (max-width:755px) {
+.social-links ul
+{
+    gap: 5rem !important;
+    margin-top: 20px !important;
+}
+}
